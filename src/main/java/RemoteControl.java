@@ -1,11 +1,11 @@
 public class RemoteControl {
-    private Device device;
+    protected EntertainmentDevice device;
 
-    public RemoteControl(Device device){
+    public RemoteControl(EntertainmentDevice device){
         this.device = device;
     }
 
     public void ligar(){
-        System.out.println("Ligando o " + this.device.getNome());
+        System.out.println("O " + this.device.getNome() + " esta " + this.device.setPower());
     }
 }
