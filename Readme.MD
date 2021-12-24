@@ -33,6 +33,7 @@ A control remote can have many functionalities and each device can have specific
  - Separate an abstraction (Abstraction) from its implementation (Implementor) by putting them in separate class hierarchies.
  - Implement the Abstraction in terms of (by delegating to) an Implementor object.
  
+ <img align="center" width="400" src="https://github.com/andremarinho/bridge-pattern/blob/master/src/main/resources/img/patternBridge2.png" />
  
 
 [Gang of Four]: <https://en.wikipedia.org/wiki/Design_Patterns>
