@@ -6,6 +6,7 @@ public class RemoteControl {
     }
 
     public void ligar(){
+
         System.out.println("O " + this.device.getNome() + " esta " + this.device.setPower());
     }
 }
